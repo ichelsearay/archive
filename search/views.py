@@ -61,7 +61,7 @@ def json_helper(request):
     j = {
         'ret': 0,
         'hot_keywords': kwlist,
-        'tips': u'手撕包菜搜索助手1.2  <a href="http://pan.baidu.com/">登录百度云</a>，即可使用云播放在线观看',
+        'tips': u'BTCiliXunlei搜索助手1.2  <a href="http://pan.baidu.com/">登录百度云</a>，即可使用云播放在线观看',
         'default_option': True,
         'default_url': settings.HOME_URL,
         'update_url': '',

@@ -1,9 +1,9 @@
 {% extends 'layout.html' %}
 
-{% block title %}{{info.name}} - CiLiBaBa{% endblock %}
+{% block title %}{{info.name}} - BTCiliXunlei{% endblock %}
 {% block metas %}
 {{block.super}}
-<meta name="keywords" content="{{keywords|join:','}},磁力链接,CiLiBaBa,Magnet Downloads" />
+<meta name="keywords" content="{{keywords|join:','}},磁力链接,BTCiliXunlei,Magnet Downloads" />
 <meta name="description" content="{{info.name}} magnet links and files to download." />
 
 {% if '夏洛' in info.name %}
@@ -89,16 +89,6 @@ document.writeln('<script id="LS_ADCODES" type="text/javascript" src="http://js.
         {% endif %}
     </table>
 
-<!--
-<script type="text/javascript">
-var ad_idzone = "1714324",
-     ad_width = "728",
-     ad_height = "90";
-    document.writeln('<script type="text/javascript" src="http://ads.exoclick.com/ads.js"><\/script><noscript><a href="http://main.exoclick.com/img-click.php?idzone=1714324" target="_blank"><img src="http://syndication.exoclick.com/ads-iframe-display.php?idzone=1714324&output=img&type=728x90" width="728" height="90"><\/a><\/noscript>');
-</script>
-    <a alt="download 2345" href="http://download.2345.cn/silence/2345Explorer_333561_silence.exe"><img src="/static/gaoqing.png"></a>
--->
-
     <h4>File List</h4>
     <div class="files">
         <ul>
@@ -130,7 +120,7 @@ var ad_idzone = "1714324",
 
     <h4>Copyright Infringement</h4>
     <div>
-        If the content above is not authorized, please contact us via contact[AT]cilibaba.com. Remember to include the full url in your complaint.
+        If the content above is not authorized, please contact us via contact[AT]BTCiliXunlei.com. Remember to include the full url in your complaint.
     </div>
 
 </div>
@@ -150,7 +140,7 @@ setTimeout(function(){
             var link1 = 'magnet:' + '?xt=urn' + ':btih:' + info.info_hash;
             var link2 =  link1 + '&dn=' + encodeURIComponent(info.name);
             var link3 = 'http://pan.bai' + 'du.com/disk/home?ssbc_magnet=' + info.info_hash;
-            var link4 = 'http://www.hao' + 'sou.com/s?q=' + encodeURIComponent(info.name) + '&amp;src=ssbc&amp;ie=utf-8';
+            var link4 = 'http://www.hao' + 'sou.com/s?q=' + encodeURIComponent(info.name) + '&amp;ie=utf-8';
             $('.magnet-link,.magnet-download').attr('href', link2);
             $('.magnet-link').html(link1);
             $('.x-play').attr('href', link3);
